@@ -1,13 +1,20 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-      <Navbar />
+    <Router>   
+       <Navbar />
+{/* There is no longer nothing like switch in React-router-dom it;s now routes  */}
+       <Routes > 
+        <Route path='/' exact />
+       </Routes>
+    </Router>
+     
     
     </>
   )
