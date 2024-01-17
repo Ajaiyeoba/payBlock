@@ -18,14 +18,13 @@ export const Button = ({
 
         return ( 
             <Link to='/sign-up' className='btn-mobile'>
-                <Button className={`btn ${checkButtonSize} ${checkButtonStyle}` 
-                onClick={onClick}
-                type={type}}>
+                <Button className={`btn ${checkButtonSize} ${checkButtonStyle}`}
+                onClick={onClick} 
+                 type={type} >
                 {children}
                 </Button>
-                
                  </Link>
          )
     };
-
+    
 export default Button
