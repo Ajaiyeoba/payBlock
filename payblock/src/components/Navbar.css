@@ -27,7 +27,7 @@
   }
   
   .navbar-logo {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -35,7 +35,12 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    background: linear-gradient(to right, #f32170, 
+            #ff6b08, #cf23cf, #eedd44); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
   }
+ 
   
   .fa-typo3 {
     margin-left: 0.5rem;
@@ -72,12 +77,15 @@
   .nav-links:hover {
     /* border-bottom: 1px solid #fff; */
     transition: all 0.2s ease-out;
+    color: var(--secondary-color);
   }
   
   .fa-bars {
-    color: #fff;
+    color: var(--secondary-color);
   }
-  
+  .fa-money-bill{
+    color:  linear-gradient(to top left, red, blue);
+  }
   .nav-links-mobile {
     display: none;
   }
@@ -104,7 +112,7 @@
     }
   
     .nav-menu.active {
-      background: var(--primary-color);
+      background: black;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -119,7 +127,7 @@
     }
   
     .nav-links:hover {
-      background-color: #fff;
+      background-color: red;
       color: #242424;
       border-radius: 0;
     }
@@ -128,7 +136,8 @@
       position: absolute;
       top: 0;
       left: 0;
-      transform: translate(25%, 50%);
+      transform: translate(25%, 35%);
+      
     }
   
     .menu-icon {
@@ -141,8 +150,8 @@
       cursor: pointer;
     }
   
-    .fa-times {
-      color: #fff;
+    .fa-x { 
+      color: var(--secondary-color);
       font-size: 2rem;
     }
   
@@ -154,7 +163,7 @@
       width: 80%;
       text-decoration: none;
       font-size: 1.5rem;
-      background-color: transparent;
+      background-color: yellow;
       color: var(--secondary-color);
       padding: 14px 20px;
       border: 1px solid #fff;
