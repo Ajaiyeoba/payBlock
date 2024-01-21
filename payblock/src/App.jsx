@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
-
+import Home from './components/pages/Home'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
        <Navbar />
 {/* There is no longer nothing like switch in React-router-dom it;s now routes  */}
        <Routes > 
-        <Route path='/' exact />
+        <Route path='/' exact Component={Home} />
        </Routes>
     </Router>
      
