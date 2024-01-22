@@ -6,3 +6,7 @@
     align-items: center;
     object-fit: contain;
 }
+
+.hero-container h1{
+    color: red;
+}
