@@ -4,18 +4,54 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     object-fit: contain;
     margin: 4rem 4rem;
     justify-content: center;
-
 }
 .hero-container h1{
     color: var(--tertiary-color);
     font-size: 3rem;
     margin-top: -100px;
+    font-family: 'poppins';
 }
 .hero-container p{
     margin: 2rem;
     color: var(--tertiary-color);
     font-size: 0.9rem;
+    width: 50%;
+}
+@media  screen  and (max-width: 960px){
+    .hero-container h1{
+        font-size:2rem;
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 760px){
+.hero-container{
+    overflow: hidden;
+}
+    .hero-container h1{
+        font-size: 2.5rem;
+        /* margin-top: 100px;
+        margin-left: -2rem; */
+        /* margin: 4rem; */
+        margin-top: 4rem;
+        padding-top: 4rem;
+        padding-left: -18rem;
+        width: 2rem;
+        text-align: center;
+        justify-content: center;
+    }
+    .hero-container p{
+        font-size: 1rem;
+    }
+    .btn-mobile{
+        display: block;
+        text-decoration: none;
+    }
+    .btn{
+        width: 100%;
+    }
 }
