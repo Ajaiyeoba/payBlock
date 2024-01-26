@@ -8,12 +8,19 @@
     object-fit: contain;
     margin: 4rem 4rem;
     justify-content: center;
+    /* overflow: hidden; */
 }
 .hero-container h1{
     color: var(--tertiary-color);
     font-size: 3rem;
     margin-top: -100px;
     font-family: 'poppins';
+}
+.hero-container h1 span{
+    background: linear-gradient(to right, #f32170, 
+            #ff6b08, #cf23cf, #eedd44); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
 }
 .hero-container p{
     margin: 2rem;
@@ -30,7 +37,8 @@
 
 @media screen and (max-width: 760px){
 .hero-container{
-    overflow: hidden;
+    /* overflow: hidden; */
+    margin: 0;
 }
     .hero-container h1{
         font-size: 2.5rem;
@@ -39,13 +47,23 @@
         /* margin: 4rem; */
         margin-top: 4rem;
         padding-top: 4rem;
-        padding-left: -18rem;
-        width: 2rem;
+        padding-right: 14rem;
+        width: 4rem;
         text-align: center;
         justify-content: center;
+        align-items: center;
+        
     }
+    /* .hero-container h1 span{
+        background: linear-gradient(to right, #f32170, 
+            #ff6b08, #cf23cf, #eedd44); 
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text;
+    } */
     .hero-container p{
         font-size: 1rem;
+       
+        margin-bottom: 1rem;
     }
     .btn-mobile{
         display: block;

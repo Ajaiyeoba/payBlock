@@ -121,15 +121,12 @@
       color: #242424;
       border-radius: 0;
     }
-  
     .navbar-logo {
       position: absolute;
       top: 0;
       left: 0;
-      transform: translate(25%, 35%);
-      
+      transform: translate(25%, 35%); 
     }
-  
     .menu-icon {
       display: block;
       position: absolute;
