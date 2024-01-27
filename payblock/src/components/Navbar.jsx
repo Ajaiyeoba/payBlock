@@ -28,7 +28,7 @@ function Navbar() {
     <> 
         <nav className="navbar">
         <div className="navbar-container">
-    <Link to='/' className='navbar-logo'> <i className="fa-solid fa-money-bill" /> pay <span>Block</span></Link>
+    <Link to='/' className='navbar-logo'> <i className="fa-solid fa-money-bill" /> pay <span>Flex</span></Link>
 
         <div className="menu-icon" onClick={handleClick}>
         <i className={click ? 'fa-solid fa-x' : 'fa-solid fa-bars' }/>

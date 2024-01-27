@@ -1,0 +1,42 @@
+:root{
+    --primary-color: #f3f4f4;
+    --secondary-color: #e8d284;
+    --tertiary-color: #2a4f61;
+  }
+
+.card{
+    padding: 4rem;
+    background-color: var(--primary-color);
+}
+h1{
+    text-align: center;
+}
+.card__container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+.card__wrapper{
+    position: relative;
+    margin:  50px 0 45px;
+}
+.card__item{
+    margin-bottom: 24px;
+}
+.card__item{
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+}
+.card__item__link{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 10px;    
+}
