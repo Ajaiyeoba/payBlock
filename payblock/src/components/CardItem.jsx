@@ -4,17 +4,17 @@ import './Card.css'
 
 
 
-function CardItem() {
+function CardItem(props) {
   return (
 <>
-<li className="cards__item">
-    <Link className="cards__item__link">
-        <div className="card__item__imgwrap">
-         <img src="" alt="" 
+<li className="cards__item" >
+    <Link className="cards__item__link" to={props.path}>
+        <div className="card__item__imgwrap" data-category={props.label}>
+         <img src={props} alt="" 
          className="card__item__img" />
         </div>
         <div className="card__item__info">
-          <h5 className="card__item__text"> Explore your Finances with us</h5>
+          <h5 className="card__item__text" >{props.text}</h5>
         </div>
     </Link>
 </li>

@@ -10,7 +10,30 @@ function Card() {
         <div className="card__container">
             <div className="card__wrapper">
                 <ul className="card__item">
-                    <CardItem />
+                    <CardItem 
+                    src=''
+                    text='Hello Africa'
+                    label='Adventure'
+                    path='/services'
+                    />
+                                        <CardItem 
+                    src=''
+                    text='Hello Gha'
+                    label='Adventure'
+                    path='/services'
+                    />
+                                        <CardItem 
+                    src=''
+                    text='Hello Egypt'
+                    label='Adventure'
+                    path='/services'
+                    />
+                                        <CardItem 
+                    src=''
+                    text='Hello Nigeria'
+                    label='Adventure'
+                    path='/services'
+                    />
                 </ul>
             </div>
         </div>
