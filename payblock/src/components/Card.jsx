@@ -16,21 +16,21 @@ function Card() {
                     label='Adventure'
                     path='/services'
                     />
-                                        <CardItem 
+                      <CardItem 
                     src='https://lh3.googleusercontent.com/p/AF1QipM62rvr4JXihSapUykMuCixwuYCTIty0_6mXc2H=w287-h192-n-k-rw-no-v1'
-                    text='Hello Gha'
+                    text='Hello Gha yjbcjhbdvbdvb'
                     label='Adventure'
                     path='/services'
                     />
                                         <CardItem 
                     src=''
-                    text='Hello Egypt'
+                    text='Hello Egyptihjemschjberfs'
                     label='Adventure'
                     path='/services'
                     />
                                         <CardItem 
                     src=''
-                    text='Hello Nigeria'
+                    text='Hello Nigeriayhrejshrshuwds'
                     label='Adventure'
                     path='/services'
                     />

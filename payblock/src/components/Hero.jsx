@@ -11,7 +11,7 @@ function Hero() {
            Seeking Financial Help can be horrible at times. Rizz them with your style! They should not ask for your details </p>
         <div className="hero-btn">
         <Button className='btn' buttonStyle='btn-outline'>
-             Receive Payment </Button>
+             Receive Payments </Button>
         </div>
 
 

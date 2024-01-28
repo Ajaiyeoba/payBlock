@@ -98,7 +98,7 @@ function Navbar() {
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <i className={click ? 'fas fa-times' :  'fas fa-bars'}  /> m
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
@@ -116,6 +116,11 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
+              <Link to='/contact' className='nav-links' onClick={closeMobileMenu}>
+                Contact
+              </Link>
+            </li>
+            <li className='nav-item'>
               <Link
                 to='/products'
                 className='nav-links'
@@ -126,16 +131,11 @@ function Navbar() {
             </li>
 
             <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
+              <Link to='/sign-up'className='nav-links-mobile' onClick={closeMobileMenu} >                Sign Up
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--primary'>SIGN UP</Button>}
         </div>
       </nav>
     </>

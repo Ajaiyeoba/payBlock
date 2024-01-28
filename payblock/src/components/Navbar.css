@@ -52,7 +52,7 @@
 }
 .nav-item {
     height: 80px;
-    padding-top: 45px;
+    padding-bottom: 12px;
     
   }
   .nav-links {
@@ -102,7 +102,7 @@
     }
   
     .nav-menu.active {
-      background: black;
+      background: var(--tertiary-color);
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -117,8 +117,7 @@
     }
   
     .nav-links:hover {
-      background-color: red;
-      color: #242424;
+      color: var(--secondary-color);
       border-radius: 0;
     }
     .navbar-logo {
@@ -150,7 +149,7 @@
       width: 80%;
       text-decoration: none;
       font-size: 1.5rem;
-      background-color: yellow;
+      background-color: var(--primary-color);
       color: var(--secondary-color);
       padding: 14px 20px;
       border: 1px solid #fff;
@@ -159,7 +158,7 @@
   
     .nav-links-mobile:hover {
       background: #fff;
-      color: #242424;
+      color: var(--secondary-color);
       transition: 250ms;
     }
   }
