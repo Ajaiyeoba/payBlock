@@ -10,7 +10,7 @@ function CardItem(props) {
 <li className="cards__item" >
     <Link className="cards__item__link" to={props.path}>
         <div className="card__item__imgwrap" data-category={props.label}>
-         <img src={props} alt="" 
+         <img src={props.src} alt="" 
          className="card__item__img" />
         </div>
         <div className="card__item__info">
