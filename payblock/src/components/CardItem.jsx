@@ -7,8 +7,8 @@ import './Card.css'
 function CardItem(props) {
   return (
 <>
-<li className="cards__item" >
-    <Link className="cards__item__link" to={props.path}>
+<li className="card__item" >
+    <Link className="card__item__link" to={props.path}>
         <div className="card__item__imgwrap" data-category={props.label}>
          <img src={props.src} alt="" 
          className="card__item__img" />

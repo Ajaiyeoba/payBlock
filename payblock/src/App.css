@@ -8,6 +8,21 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
+}
+.contact{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.services{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
+.products{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+.signup{
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}

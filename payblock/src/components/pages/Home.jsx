@@ -1,6 +1,7 @@
 import Hero from '../Hero'
 import '../../App.css'
 import Card from '../Card'
+import Footer from '../Footer';
 
 function Home() {
     return (
@@ -8,6 +9,7 @@ function Home() {
         
         <Hero /> 
         <Card />
+        <Footer />
         </>
     )
 }
