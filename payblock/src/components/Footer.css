@@ -75,3 +75,9 @@
     text-decoration: none;
     transition: 0.3s  ease-out;
  }
+ .footer-email h2{
+    margin-bottom: 32px;
+ }
+ .footer-email::placeholder{
+    color: var(--secondary-color);
+ }
