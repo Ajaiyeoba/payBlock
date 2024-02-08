@@ -8,12 +8,12 @@ function Footer() {
     <div className='footer-container'>
     <section className="footer_sub">
         <p className="footer-sub-heading ">
-            Adventure exploration, Exposure
+            Adventure Exploration Exposure
         </p>
         <p className="footer-sub-text"> Join Us</p>
-        <div className="footer-input">
+        <div className="footer-">
           <form>  
-            <input type="email" name='email ' placeholder='Enter Your Email' className="footer-email" />
+            <input type="email" name='email ' placeholder='Enter Your Email' className="footer-input" />
             <Button buttonStyle='btn-primary'> Subcribe</Button>
           </form>
         </div>
@@ -62,6 +62,8 @@ function Footer() {
               <div className="footer-rights">
               Metroplus © 2024
               </div>
+
+
               <div className="social-icons">
                 <Link to='/'
                       target='_blank'
